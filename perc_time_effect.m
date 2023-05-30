@@ -32,6 +32,8 @@ for j=1:nperc
         allcoh(j,i)=mean(c(ic==i));
     end
 end
+imagesc(dts,percs,allcoh)
+
 
 % end
 %     triplot(b(:,1),1:nd,intid)
