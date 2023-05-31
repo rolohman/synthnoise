@@ -32,6 +32,7 @@ nivar=stds.^2*unique(dt);
 coh=exp(-nivar/2);
 
 
+figure
 
 
 subplot(1,2,1)
